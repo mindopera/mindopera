@@ -11,19 +11,19 @@ wget -O /workspace/stable-diffusion-webui/embeddings/negative-embedding-realisti
 wget -O /workspace/stable-diffusion-webui/embeddings/easynegative.pt https://civitai.com/api/download/models/9208
 wget -O /workspace/stable-diffusion-webui/embeddings/fastnegative.pt https://civitai.com/api/download/models/94057
 wget -O /workspace/stable-diffusion-webui/models/ESRGAN/4x-UltraSharp.pth https://huggingface.co/datasets/Kizi-Art/Upscale/resolve/main/4x-UltraSharp.pth
-git clone https://github.com/pharmapsychotic/clip-interrogator-ext ./stable-diffusion-webui/extensions/clip-interrogator/
-git clone https://github.com/Zyin055/Config-Presets ./stable-diffusion-webui/extensions/Config-Presets/
-git clone https://github.com/AlUlkesh/stable-diffusion-webui-images-browser ./stable-diffusion-webui/extensions/image-browser/
-git clone https://github.com/DominikDoom/a1111-sd-webui-tagcomplete ./stable-diffusion-webui/extensions/tag-complete/
-git clone https://github.com/LEv145/--sd-webui-ar-plus ./stable-diffusion-webui/extensions/ar-helper/
-git clone https://github.com/vladmandic/sd-extension-system-info ./stable-diffusion-webui/extensions/systems-info/
-git clone https://github.com/huchenlei/sd-webui-openpose-editor ./stable-diffusion-webui/extensions/open-pose-editor/
-git clone https://github.com/AUTOMATIC1111/stable-diffusion-webui-wildcards ./stable-diffusion-webui/extensions/wildcards/
-git clone https://github.com/numz/sd-wav2lip-uhq ./stable-diffusion-webui/extensions/wav2lip/
-git clone https://github.com/OpenTalker/SadTalker ./stable-diffusion-webui/extensions/SadTalker/
-git clone https://github.com/kabachuha/sd-webui-text2video ./stable-diffusion-webui/extensions/text2video/
-git clone https://github.com/Bing-su/adetailer ./stable-diffusion-webui/extensions/adetailer/
-git clone https://github.com/CiaraStrawberry/TemporalKit ./stable-diffusion-webui/extensions/temporalkit/
-git clone https://huggingface.co/cerspense/zeroscope_v2_576w ./stable-diffusion-webui/models/ModelScope/t2v/
+git clone https://github.com/pharmapsychotic/clip-interrogator-ext /workspace/stable-diffusion-webui/extensions/clip-interrogator/
+git clone https://github.com/Zyin055/Config-Presets /workspace/stable-diffusion-webui/extensions/Config-Presets/
+git clone https://github.com/AlUlkesh/stable-diffusion-webui-images-browser /workspace/stable-diffusion-webui/extensions/image-browser/
+git clone https://github.com/DominikDoom/a1111-sd-webui-tagcomplete /workspace/stable-diffusion-webui/extensions/tag-complete/
+git clone https://github.com/LEv145/--sd-webui-ar-plus /workspace/stable-diffusion-webui/extensions/ar-helper/
+git clone https://github.com/vladmandic/sd-extension-system-info /workspace/stable-diffusion-webui/extensions/systems-info/
+git clone https://github.com/huchenlei/sd-webui-openpose-editor /workspace/stable-diffusion-webui/extensions/open-pose-editor/
+git clone https://github.com/AUTOMATIC1111/stable-diffusion-webui-wildcards /workspace/stable-diffusion-webui/extensions/wildcards/
+git clone https://github.com/numz/sd-wav2lip-uhq /workspace/stable-diffusion-webui/extensions/wav2lip/
+git clone https://github.com/OpenTalker/SadTalker /workspace/stable-diffusion-webui/extensions/SadTalker/
+git clone https://github.com/kabachuha/sd-webui-text2video /workspace/stable-diffusion-webui/extensions/text2video/
+git clone https://github.com/Bing-su/adetailer /workspace/stable-diffusion-webui/extensions/adetailer/
+git clone https://github.com/CiaraStrawberry/TemporalKit /workspace/stable-diffusion-webui/extensions/temporalkit/
+git clone https://huggingface.co/cerspense/zeroscope_v2_576w /workspace/stable-diffusion-webui/models/ModelScope/t2v/
 git clone 
 pip install ffmpeg
