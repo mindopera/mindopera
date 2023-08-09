@@ -5,6 +5,7 @@ apt -y install git-lfs
 wget -O /workspace/stable-diffusion-webui/extensions/sd-webui-controlnet/models/control_v11p_sd15_lineart.pth https://huggingface.co/lllyasviel/ControlNet-v1-1/resolve/main/control_v11p_sd15_lineart.pth
 wget -O /workspace/stable-diffusion-webui/extensions/sd-webui-controlnet/models/control_v11p_sd15_openpose.pth https://huggingface.co/lllyasviel/ControlNet-v1-1/resolve/main/control_v11p_sd15_openpose.pth
 wget -O /workspace/stable-diffusion-webui/extensions/sd-webui-controlnet/models/control_v11f1e_sd15_tile.pth https://huggingface.co/lllyasviel/ControlNet-v1-1/resolve/main/control_v11f1e_sd15_tile.pth
+git clone https://github.com/Coyote-A/ultimate-upscale-for-automatic1111/ /workspace/stable-diffusion-webui/extensions/ultimate-upscale/
 wget -O /workspace/stable-diffusion-webui/models/Stable-diffusion/RevAnimated.safetensors https://civitai.com/api/download/models/46846
 wget -O /workspace/stable-diffusion-webui/models/Stable-diffusion/realisticvision5.safetensors https://civitai.com/api/download/models/130072
 wget -O /workspace/stable-diffusion-webui/embeddings/negative-embedding-realisticvision2.pt https://civitai.com/api/download/models/42247
