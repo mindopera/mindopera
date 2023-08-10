@@ -15,6 +15,7 @@ wget -O /workspace/stable-diffusion-webui/models/ESRGAN/4x-UltraSharp.pth https:
 wget -O /workspace/stable-diffusion-webui/models/Stable-diffusion/sdxlbase-for-training.safetensors https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/resolve/main/sd_xl_base_1.0.safetensors
 wget -O /workspace/stable-diffusion-webui/models/VAE/sdxl_vae.safetensors https://huggingface.co/stabilityai/sdxl-vae/resolve/main/sdxl_vae.safetensors
 git clone https://github.com/pharmapsychotic/clip-interrogator-ext /workspace/stable-diffusion-webui/extensions/clip-interrogator/
+git clone https://github.com/toriato/stable-diffusion-webui-wd14-tagger /workspace/stable-diffusion-webui/extensions/wdtagger/
 git clone https://github.com/Zyin055/Config-Presets /workspace/stable-diffusion-webui/extensions/Config-Presets/
 git clone https://github.com/AlUlkesh/stable-diffusion-webui-images-browser /workspace/stable-diffusion-webui/extensions/image-browser/
 git clone https://github.com/DominikDoom/a1111-sd-webui-tagcomplete /workspace/stable-diffusion-webui/extensions/tag-complete/
