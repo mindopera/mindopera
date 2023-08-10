@@ -30,3 +30,14 @@ git clone https://github.com/CiaraStrawberry/TemporalKit /workspace/stable-diffu
 git clone https://huggingface.co/cerspense/zeroscope_v2_576w /workspace/stable-diffusion-webui/models/ModelScope/t2v/
 git clone https://github.com/bmaltais/kohya_ss /workspace/kohya_ss/
 pip install ffmpeg
+cd /workspace/kohya_ss/
+python3 -m venv venv
+source venv/bin/activate
+yes | apt-get install python3.10-tk
+./setup.sh -n
+apt update
+yes | apt-get install python3.10-tk
+fuser -k 7860/tcp
+cd /workspace/kohya_ss
+source venv/bin/activate
+pip install fastapi==0.99.1
