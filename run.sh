@@ -12,6 +12,8 @@ wget -O /workspace/stable-diffusion-webui/embeddings/negative-embedding-realisti
 wget -O /workspace/stable-diffusion-webui/embeddings/easynegative.pt https://civitai.com/api/download/models/9208
 wget -O /workspace/stable-diffusion-webui/embeddings/fastnegative.pt https://civitai.com/api/download/models/94057
 wget -O /workspace/stable-diffusion-webui/models/ESRGAN/4x-UltraSharp.pth https://huggingface.co/datasets/Kizi-Art/Upscale/resolve/main/4x-UltraSharp.pth
+wget -O /workspace/stable-diffusion-webui/models/Stable-diffusion/sdxlbase-for-training.safetensors https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/resolve/main/sd_xl_base_1.0.safetensors
+wget -O /workspace/stable-diffusion-webui/models/VAE/sdxl_vae.safetensors https://huggingface.co/stabilityai/sdxl-vae/resolve/main/sdxl_vae.safetensors
 git clone https://github.com/pharmapsychotic/clip-interrogator-ext /workspace/stable-diffusion-webui/extensions/clip-interrogator/
 git clone https://github.com/Zyin055/Config-Presets /workspace/stable-diffusion-webui/extensions/Config-Presets/
 git clone https://github.com/AlUlkesh/stable-diffusion-webui-images-browser /workspace/stable-diffusion-webui/extensions/image-browser/
@@ -26,5 +28,5 @@ git clone https://github.com/kabachuha/sd-webui-text2video /workspace/stable-dif
 git clone https://github.com/Bing-su/adetailer /workspace/stable-diffusion-webui/extensions/adetailer/
 git clone https://github.com/CiaraStrawberry/TemporalKit /workspace/stable-diffusion-webui/extensions/temporalkit/
 git clone https://huggingface.co/cerspense/zeroscope_v2_576w /workspace/stable-diffusion-webui/models/ModelScope/t2v/
-git clone 
+git clone https://github.com/bmaltais/kohya_ss /workspace/kohya_ss/
 pip install ffmpeg
